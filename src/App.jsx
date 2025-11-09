@@ -16,7 +16,7 @@ function App() {
      
       
 
-      <Route path='/*' element={<PatientHome/>}></Route>
+      <Route path='/patient_dashboard/*' element={<PatientHome/>}></Route>
 
 
 

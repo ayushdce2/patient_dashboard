@@ -19,7 +19,7 @@ const Dashboard = () => {
                   <p className='font-bold text-xl text-[#27374D]'>53 <span className=' text-sm italic text-[#526D82]'>till today</span></p>
                 </div>
                 <div className=''>
-                  <img src='./images/walkin.svg' className='h-[4rem] w-[4rem]'/>
+                  <img src='/patient_dashboard/images/walkin.svg' className='h-[4rem] w-[4rem]'/>
                 </div>
               </div>
               <div className=' border-t-1'>

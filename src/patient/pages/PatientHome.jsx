@@ -27,11 +27,11 @@ const Homepage = () => {
         <div className={`h-[calc(100vh-5rem)] ${sidebar ? "flex absolute top-12 right-0 w-[50vw]" : "hidden"} md:flex flex-col justify-between  text-[#27374D] bg-[#DDE6ED] p-2 rounded`}>
           <ul>
             <li className=' '>
-              <Link className={`flex gap-2 p-2 mb-2 rounded ${pathname == "/" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/">
-                <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>Dashboard</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded ${pathname == "/patient_dashboard" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard">
+                <img src='/patient_dashboard/images/dashboard.svg'/> <span className='text-md font-semibold'>Dashboard</span>
               </Link>
-              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF]' ${pathname === "/choosedoc" || pathname === "/choosedoc/booking" || pathname === "/choosedoc/booking/registration" || pathname === "/choosedoc/booking/bookingsummary" || pathname === "/choosedoc/booking/payment" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/choosedoc" >
-                <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>Appointment Booking</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF]' ${pathname === "/patient_dashboard/choosedoc" || pathname === "/patient_dashboard/choosedoc/booking" || pathname === "/patient_dashboard/choosedoc/booking/registration" || pathname === "/patient_dashboard/choosedoc/booking/bookingsummary" || pathname === "/patient_dashboard/choosedoc/booking/payment" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/choosedoc" >
+                <img src='/patient_dashboard/images/dashboard.svg'/> <span className='text-md font-semibold'>Appointment Booking</span>
               </Link>
               {/* <Link className='flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF]'>
                 <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>All Reports</span>
@@ -39,11 +39,11 @@ const Homepage = () => {
               <Link className='flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF]'>
                 <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>Medicine Record</span>
               </Link> */}
-              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/talkdoctor" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/talkdoctor">
-                <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>Talk Doctor</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/patient_dashboard/talkdoctor" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/talkdoctor">
+                <img src='/patient_dashboard/images/dashboard.svg'/> <span className='text-md font-semibold'>Talk Doctor</span>
               </Link>
-              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/symptomschecker" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/symptomschecker">
-                <img src='/images/dashboard.svg'/> <span className='text-md font-semibold'>Symptom Checker (AI)</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/patient_dashboard/symptomschecker" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/symptomschecker">
+                <img src='/patient_dashboard/images/dashboard.svg'/> <span className='text-md font-semibold'>Symptom Checker (AI)</span>
               </Link>
               
               
@@ -52,11 +52,11 @@ const Homepage = () => {
           
           <ul>
             <li className=' '>
-              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/profile" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/profile">
-                <img src='/images/user.svg'/> <span className='text-md font-semibold'>Profile</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/patient_dashboard/profile" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/profile">
+                <img src='/patient_dashboard/images/user.svg'/> <span className='text-md font-semibold'>Profile</span>
               </Link>
-              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/settings" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}   to="/settings">
-                <img src='/images/settings.svg'/> <span className='text-md font-semibold'>Settings</span>
+              <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF] ${pathname == "/patient_dashboard/settings" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}   to="/patient_dashboard/settings">
+                <img src='/patient_dashboard/images/settings.svg'/> <span className='text-md font-semibold'>Settings</span>
               </Link>
               
               
@@ -77,13 +77,13 @@ const Homepage = () => {
             <img src='/images/settings.svg'/>
           </div> */}
           <div>
-              <Link to="/notifications"> 
-                <img src='/images/notification.svg' className={`${pathname == "/notifications" ? "bg-[#526D82] rounded text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}/>
+              <Link to="/patient_dashboard/notifications"> 
+                <img src='/patient_dashboard/images/notification.svg' className={`${pathname == "/notifications" ? "bg-[#526D82] rounded text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}/>
               </Link>
           </div>
           <div>
-            <Link to="/logout">
-              <img src='/images/logout.svg' className={`w-[1.3rem] cursor-pointer ${pathname == "/logout" ? "bg-[#526D82] rounded text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}/>
+            <Link to="/patient_dashboard/logout">
+              <img src='/patient_dashboard/images/logout.svg' className={`w-[1.3rem] cursor-pointer ${pathname == "/logout" ? "bg-[#526D82] rounded text-[#DDE6ED] " : "bg-[#9DB2BF]" } `}/>
             </Link>
           </div>
           
