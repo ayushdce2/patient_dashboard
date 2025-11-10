@@ -41,7 +41,7 @@ const Payment = () => {
                         
                     </div>
                 </div>
-        <Link to="/choosedoc/booking/bookingsummary" className='bg-[#27374D] text-[#DDE6ED] p-2 rounded inline-block mt-5'>Make Payment</Link>
+        <Link to="/patient_dashboard/choosedoc/booking/bookingsummary" className='bg-[#27374D] text-[#DDE6ED] p-2 rounded inline-block mt-5'>Make Payment</Link>
     </div>
         
     </>

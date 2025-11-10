@@ -22,12 +22,12 @@ const Homepage = () => {
       <div className='h-full p-2 pr-0 overflow-auto'>
         
         <div className={`${sidebar ? "flex absolute top-0 right-0 w-[50vw] bg-[#DDE6ED] pl-2" : "hidden"} md:flex gap-3 items-center  border-b-1 border-[#526D82] mb-3 pb-2 h-[3rem] `}>
-         <span className='text-2xl text-shadow-sm text-[#27374D] font-semibold'>Hi, Name</span>
+         <span className='text-2xl text-shadow-sm text-[#27374D] font-semibold'>Hi, Mr. John</span>
         </div>
         <div className={`h-[calc(100vh-5rem)] ${sidebar ? "flex absolute top-12 right-0 w-[50vw]" : "hidden"} md:flex flex-col justify-between  text-[#27374D] bg-[#DDE6ED] p-2 rounded`}>
           <ul>
             <li className=' '>
-              <Link className={`flex gap-2 p-2 mb-2 rounded ${pathname == "/patient_dashboard" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard">
+              <Link className={`flex gap-2 p-2 mb-2 rounded ${pathname == "/patient_dashboard/" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/">
                 <img src='/patient_dashboard/images/dashboard.svg'/> <span className='text-md font-semibold'>Dashboard</span>
               </Link>
               <Link className={`flex gap-2 p-2 mb-2 rounded  bg-[#9DB2BF]' ${pathname === "/patient_dashboard/choosedoc" || pathname === "/patient_dashboard/choosedoc/booking" || pathname === "/patient_dashboard/choosedoc/booking/registration" || pathname === "/patient_dashboard/choosedoc/booking/bookingsummary" || pathname === "/patient_dashboard/choosedoc/booking/payment" ? "bg-[#27374D] text-[#DDE6ED] " : "bg-[#9DB2BF]" } `} to="/patient_dashboard/choosedoc" >

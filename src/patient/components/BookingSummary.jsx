@@ -10,7 +10,7 @@ const BookingSummary = () => {
         <div className='ml-2 mt-2 bg-[#DDE6ED] p-2 rounded'>
             <div className='bg-[#9DB2BF] rounded p-2 flex items-center mb-2'>
                 <p className='text-[#27374D]'><strong>Appointment Date : </strong> 12 July 2025 | 10:00 AM</p>
-                <img src='/images/download.svg' className='ml-auto cursor-pointer hover:bg-[#DDE6ED] p-1 rounded'/>
+                <img src='/patient_dashboard/images/download.svg' className='ml-auto cursor-pointer hover:bg-[#DDE6ED] p-1 rounded'/>
             </div>
             <div className='flex   gap-2 '>
                     <div className='flex flex-col gap-2'>

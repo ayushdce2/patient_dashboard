@@ -81,9 +81,9 @@ const Dashboard = () => {
                 <p className='font-bold text-lg text-[#27374D]'>Appointment Summary</p>
             </div>
             <div className='ml-auto'>
-              <select>
+              <select className='boxShadow1 focus:outline-0 p-1'>
                 <option value="option1">Sort by</option>
-                <option value="option2">oldest</option>
+                <option value="option2">Oldest</option>
                 <option value="option2">Latest</option>
               </select>
             </div>
@@ -91,7 +91,7 @@ const Dashboard = () => {
               <input type='search' className='border-1'/><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>Search</Link>
             </div>
             <div>
-              <img src='./images/daterange.svg' />
+              <img src='./images/daterange.svg' className='h-[100%]' />
             </div>
           </div>
         </div>
@@ -121,43 +121,79 @@ const Dashboard = () => {
                   <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
                   <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
                   <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
-                  <td>Active / Expired</td>
+                  <td>Active</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Active</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Expired</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Expired</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Expired</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Expired</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>2022-01-01</td>
                   <td>10:00 AM</td>
                   <td>John Doe</td>
+                  <td>Dr. John Doe</td>
+                  <td>ENT</td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Reports</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>View Prescription</Link></td>
+                  <td><Link to="" className='text-md text-[#DDE6ED] bg-[#27374D] p-1 rounded cursor-pointer'>EDIT</Link></td>
+                  <td>Expired</td>
                 </tr>
                 <tr>
                   <td>1</td>

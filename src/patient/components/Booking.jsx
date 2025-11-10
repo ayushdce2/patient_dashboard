@@ -17,7 +17,7 @@ const Booking = () => {
             <div className='ml-2 mt-2 bg-[#DDE6ED] p-2 rounded'>
                 <div className='flex gap-2 '>
                     <div className=''>
-                        <img src='/images/user.png' className='w-[10rem] h-[10rem]' />
+                        <img src='/patient_dashboard/images/user.png' className='w-[10rem] h-[10rem]' />
                     </div>
                     <div className=' grow-1'>
                         <p className='text-2xl font-bold text-[#27374D]'>Dr. Johm Cena</p>
@@ -142,7 +142,7 @@ const Booking = () => {
                     </div>
 
 
-                    <Link to="/choosedoc/booking/payment" className='text-center bg-[#27374D] p-3 rounded text-[#DDE6ED] mx-[auto] w-[50%]'>Next </Link>
+                    <Link to="/patient_dashboard/choosedoc/booking/payment" className='text-center bg-[#27374D] p-3 rounded text-[#DDE6ED] mx-[auto] w-[50%]'>Next </Link>
 
 
 
